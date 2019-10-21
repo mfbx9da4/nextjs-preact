@@ -1,0 +1,8 @@
+node_modules
+.vscode/
+public/bundle.js
+.env
+public/main.*
+public/*.hot-update.json
+.next
+yarn-error.log
