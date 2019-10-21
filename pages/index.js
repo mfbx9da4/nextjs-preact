@@ -1,12 +1,10 @@
-import { h } from 'preact'
-import { useState } from 'preact/hooks'
+import { h } from "preact";
 
 export default () => {
-  const [count, setCount] = useState(0)
+  const count = 1;
   return (
     <div>
-
-      Click to Increment: <button onClick={() => setCount(count + 1)}>{ count }</button>
+      Click to Increment: <button>{count}</button>
     </div>
-  )
-}
+  );
+};
